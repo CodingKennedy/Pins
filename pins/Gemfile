@@ -12,6 +12,7 @@ group :development, :test do
      gem 'sqlite3'
 end
 #bundle install --without production
+#This will solve bundle install issues
 group :production do
      gem 'pg'
      gem 'rails_12factor'
